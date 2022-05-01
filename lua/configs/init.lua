@@ -1,0 +1,5 @@
+require('configs.alpha')
+require('configs.nvimtree')
+require('configs.telescope')
+require('configs.presence')
+require('configs.nightfox')
