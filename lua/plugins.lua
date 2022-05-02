@@ -15,5 +15,13 @@ return require('packer').startup(function()
 	use {'nvim-telescope/telescope-fzf-native.nvim', run = 'make' }   -- FuzzyFinder for telescope
 
 	use { 'goolord/alpha-nvim' }                                      -- Greeter
+	
+	use {
+		'neovim/nvim-lspconfig',                                      -- Collection of configurations for the built-in LSP client
+	    'williamboman/nvim-lsp-installer',
+	}
 
+	use { 'romgrk/barbar.nvim',												  -- Tab lines
+        requires = {'kyazdani42/nvim-web-devicons'}
+    }
 end)
