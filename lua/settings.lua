@@ -1,9 +1,9 @@
 local set = vim.o
 
-----Configuration
 -- line numbers
 set.nu = true
 set.relativenumber = true
+set.splitbelow = true
 
 -- enable hidden buffers && remove backup files
 set.hidden = true
@@ -32,9 +32,8 @@ set.showmatch = true
 set.termguicolors = true
 
 vim.cmd [[
-    syntax on
+	syntax on
 	colorscheme duskfox
 	set background=dark
-	set splitbelow
 ]]
 
